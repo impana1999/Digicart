@@ -4,6 +4,7 @@ import { AiFillDelete } from "react-icons/ai";
 import { CartState } from "../context/Context";
 import Rating from "./Rating";
 
+
 const Cart = () => {
   const {
     state: { cart },
