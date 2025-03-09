@@ -24,7 +24,7 @@ const Header = () => {
     <Navbar variant="dark" style={{ height: 80  , background:"#233142" }}>
       <Container>
         <Navbar.Brand>
-          <Link className="header-font" to="/"> <img src="/assets/digishop.png" /> DigiCart</Link>
+          <Link className="header-font" to="/">  <img src="/assets/digishop.png" alt="DigiCart Logo" />  DigiCart</Link>
         </Navbar.Brand>
         {useLocation().pathname.split("/")[1] !== "cart" && (
           <Navbar.Text className="search">
